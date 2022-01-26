@@ -192,11 +192,12 @@ p{
         grid-template-columns: repeat(2,1fr);
     }
 }
-@media (max-width:600px){
-    .about .box{
-        flex-direction: column;
+@media (max-width:576px){
+    .container{
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        margin: 0;
+        width: 100%;
     }
-    .about .box .year_company{
-        margin-bottom: 5px;
-    }
+    
 }
