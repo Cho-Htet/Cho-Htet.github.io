@@ -72,6 +72,9 @@ body{
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
+a{
+    color: white;
+}
 .contactInfo ul{
     position: relative;
 }
